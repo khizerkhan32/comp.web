@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="./assects/images/cart-arrow-down-solid.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Saira+Semi+Condensed:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> All Products E=commerce Web</title>
+</head>
+<body> 
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="../index.html"><img src="./assects/images/logo.png" width="130px"></a>
+            </div>
+            <nav>
+                <ul id="Menuitems">
+                    <li class="li-class"><a href="../index.html">Home</a></li>
+                    <li class="li-class"><a href="./product.html">Product</a></li>
+                    <li class="li-class"><a href= "#account-navigation">Contact</a></li>
+                    <li class="li-class"><a href="./Account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="./cart.html"><img src="./assects/images/cart.png" width="30px" height="27px">
+            </a>
+            <img src="./assects/images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        
+    </div>
+        
+<!-- -------------------Single product detail---------------------- -->
+    
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="./assects/images/gallery-1.jpg" width="100%" id="productImg">
+                
+                <div class="small-img-row">
+                    <div class="samll-img-col">
+                        <img src="./assects/images/gallery-1.jpg" width="100%" class="smallImg">
+                    </div>
+                    <div class="samll-img-col">
+                        <img src="./assects/images/gallery-2.jpg" width="100%" class="smallImg">
+                    </div>
+                    <div class="samll-img-col">
+                        <img src="./assects/images/gallery-3.jpg" width="100%" class="smallImg">
+                    </div>
+                    <div class="samll-img-col">
+                        <img src="./assects/images/gallery-4.jpg" width="100%" class="smallImg">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Home / T-Shirt</p>
+                <h1>Red Printed T-Shirt by HRX</h1>
+                <h4>$50.00</h4>
+                <select>
+                    <option>Select Size</option>
+                    <option>XXL</option>
+                    <option>XL</option>
+                    <option>Large</option>
+                    <option>Medium</option>
+                    <option>Small</option>
+                </select>
+                <input type="number" value="1">
+                <a href="./cart.html" class="btn-2">Add To Cart</a>
+                <h3>Product Details <i class="fa-solid fa-indent"></i></h3>
+                <br>
+                <p>Give your summer wardrobe a style upgrade with the HRX
+                Men's Active T-shirt. Team it with a pair of shots for
+                Your morning Workout or a denims for an evening out with
+                the guys.</p>
+            </div>
+        </div>
+    </div>
+<!-- --------------------Title------------------------- -->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2 class="product-h2">Related Products</h2>
+            <p class="veiw-more">View More</p>
+        </div>
+    </div>
+
+<!-- -------------------------------------product------------------ -->
+    <div class="small-container">
+
+
+        <div class="row">
+            <div class="col-4">
+                <img src="./assects/images/product-9.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./assects/images/product-10.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./assects/images/product-11.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <i class="fa-regular fa-star"></i>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="./assects/images/product-12.jpg">
+                <h4>Red Printed T-Shirt</h4>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+                <p>$50.00</p>
+            </div>
+        </div>
+          
+    </div>
+
+ <!-- ---------------------------------------Footer--------------------------------------- -->
+    <div id="account-navigation">
+        
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h1>Download our App</h1>
+                        <p>Download App for Android and iso mobile phone.</p>
+                        <div class="app-logo">
+                            <img src="./assects/images/play-store.png">
+                            <img src="./assects/images/app-store.png" >
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="./assects/images/logo-white.png">
+                        <p>Our Purpose is to Sustainably Make the pleasure and
+                        Benefits of Sports Accessible to the many.
+                        </p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li><i class="fa-brands fa-square-facebook"></i> Facebook</li>
+                            <li><i class="fa-brands fa-twitter"></i> Twitter</li>
+                            <li><i class="fa-brands fa-instagram"></i> Instagram</li>
+                            <li><i class="fa-brands fa-youtube"></i> YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copy right 2023 - Red Shop (by khizer)</p>
+            </div>
+        </div>
+    </div>
+<!-- --------------------------------js for menu-------------------- -->
+    <script>
+        var Menuitems = document.getElementById("Menuitems");
+        Menuitems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(Menuitems.style.maxHeight == "0px")
+            {
+                Menuitems.style.maxHeight = "200px";
+            }
+            else
+            {
+                Menuitems.style.maxHeight = "0px";
+            }
+        }
+
+    </script>
+    <!-- -----------------------js for gallery---------------- -->
+    <script>
+        var productImg = document.getElementById("productImg");
+        var smallImg = document.getElementsByClassName("smallImg");
+            smallImg[0].onclick = function()
+              {
+                productImg.src = smallImg[0].src;
+              }
+              smallImg[1].onclick = function()
+              {
+                productImg.src = smallImg[1].src;
+              }
+              smallImg[2].onclick = function()
+              {
+                productImg.src = smallImg[2].src;
+              }
+              smallImg[3].onclick = function() 
+              {
+                productImg.src = smallImg[3].src;
+              }
+    </script>
+</body>
+</html>
